@@ -1,0 +1,26 @@
+{
+  "name": "react-frame-sequencer",
+  "version": "1.0.0",
+  "description": "npm package react.js/next.js frame sequence player",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fondunn/react-frame-sequencer.git"
+  },
+  "keywords": [
+    "reactjs",
+    "nextjs",
+    "frames",
+    "sequencer",
+    "player"
+  ],
+  "author": "Denys Karlinskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fondunn/react-frame-sequencer/issues"
+  },
+  "homepage": "https://github.com/fondunn/react-frame-sequencer#readme"
+}
