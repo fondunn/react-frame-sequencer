@@ -1,13 +1,4 @@
-interface IDrawer {
-  image: HTMLImageElement;
-  canvas: HTMLCanvasElement | null;
-  width: number;
-  height: number;
-}
-
-interface IDrawImage extends IDrawer {
-  firstLoad?: boolean;
-}
+import { IDrawer, IDrawImage } from "../lib/types";
 
 export const drawImage = ({ image, canvas, width, height }: IDrawImage) => {
   if (image) {

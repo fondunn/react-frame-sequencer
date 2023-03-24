@@ -1,6 +1,5 @@
-interface IPreloadImages {
-  [key: number]: HTMLImageElement;
-}
+import { IPreloadImages } from "../lib/types";
+
 export const preloadImages = async (
   sequencesNumber: number,
   path: string,

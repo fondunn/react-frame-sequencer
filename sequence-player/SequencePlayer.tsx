@@ -1,22 +1,10 @@
 import { useCustomProgress } from "../hooks/useCustomProgress";
 import { useScreenSize } from "../hooks/useScreenSize";
+import { IImages, ISequencePlayer } from "../lib/types";
 import { drawImage, drawOneImage } from "../utils/drawImage";
 import { preloadImages } from "../utils/preloadImages";
 import styles from "./SequencePlayer.module.scss";
 import { FC, useEffect, useRef, useState } from "react";
-
-export interface IImages {
-  [key: number]: HTMLImageElement;
-}
-
-export interface ISequencePlayer {
-  framesCount: number;
-  imagesPath: string;
-  imagesPrefix?: string;
-  imagesType: string;
-  speed?: number;
-  children?: JSX.Element;
-}
 
 export const SequencePlayer: FC<ISequencePlayer> = ({
   framesCount,
